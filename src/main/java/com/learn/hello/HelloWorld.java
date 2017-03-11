@@ -14,4 +14,9 @@ public class HelloWorld {
 		return "Hello World";
 	}
 	
+	@RequestMapping(value="/hi",method=RequestMethod.GET)
+	public @ResponseBody String sayHi(){
+		return "Hi !";
+	}
+	
 }
