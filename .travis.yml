@@ -1,0 +1,16 @@
+language: java
+jdk:
+ - oraclejdk8
+
+addons:
+  sonarqube:
+    token:
+      secure: c383ac62dfb55612c6c666b8e587b7dc0c32caf5 
+    branches:
+     - master
+script:
+   # other script steps might be done before running the actual SonarQube analysis
+   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+   
+notifications:
+   email: false
