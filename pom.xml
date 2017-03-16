@@ -24,7 +24,7 @@
 		<java.version>1.7</java.version>
 	</properties>
 	<organization>
-        <name>yfengChan</name>
+        <name>yfengchan</name>
         <url>https://github.com/yfengChan</url>
     </organization>
     <scm>

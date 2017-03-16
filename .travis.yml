@@ -11,7 +11,7 @@ jdk:
 #     - master
 script:
    # other script steps might be done before running the actual SonarQube analysis
-   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package -X sonar:sonar -Dsonar.host.url=https://sonarqube.com  -Dsonar.login=$SONAR_QUBE_TOKEN
+   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package -X sonar:sonar -Dsonar.host.url=https://sonarqube.com  -Dsonar.organization=yfengchan-github -Dsonar.login=$SONAR_QUBE_TOKEN
    #- mvn clean package
 notifications:
    email: false
