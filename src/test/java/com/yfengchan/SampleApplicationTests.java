@@ -1,4 +1,4 @@
-package com.learn;
+package com.yfengchan;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

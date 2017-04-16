@@ -1,4 +1,4 @@
-package com.learn.hello;
+package com.yfengchan.hello;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

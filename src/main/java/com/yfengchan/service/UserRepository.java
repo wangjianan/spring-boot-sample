@@ -1,8 +1,8 @@
-package com.learn.service;
+package com.yfengchan.service;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.learn.entity.User;
+import com.yfengchan.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 	

@@ -1,4 +1,4 @@
-package com.learn;
+package com.yfengchan;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import com.learn.entity.User;
-import com.learn.service.UserRepository;
+import com.yfengchan.entity.User;
+import com.yfengchan.service.UserRepository;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringBootTest
@@ -23,7 +23,7 @@ public class UserRepositoryTest {
 	public void testUserRepositoy(){
 		User user = new User();
 		user.setAge(20);
-		user.setGender(0);
+		user.setGender('0');
 		user.setName("Sample1");
 		userRepository.save(user);
 		assertNotNull(userRepository.findByName("Sample1"));

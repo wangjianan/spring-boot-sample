@@ -1,5 +1,5 @@
 
-package com.learn;
+package com.yfengchan;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -11,7 +11,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
-import com.learn.hello.HelloWorld;
+import com.yfengchan.hello.HelloWorld;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

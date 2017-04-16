@@ -1,4 +1,4 @@
-package com.learn;
+package com.yfengchan;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
