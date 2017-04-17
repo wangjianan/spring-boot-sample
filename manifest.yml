@@ -1,0 +1,7 @@
+---
+applications:
+- name: SpringBoot-Sample
+  memory: 1G
+  instances: 1
+  random-route: true
+  path: target/SpringBoot-Sample-0.0.1-SNAPSHOT.war

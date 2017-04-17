@@ -15,3 +15,12 @@ script:
    #- mvn clean package
 notifications:
    email: false
+   
+deploy:
+   edge: true
+   provider: cloudfoundry
+   username: youfchen@126.com
+   password: $PCF_TOKEN
+   api: https://api.run.pivotal.io
+   organization: youfchen-org
+   space: development
